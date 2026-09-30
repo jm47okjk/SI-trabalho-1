@@ -9,7 +9,7 @@ Um projeto simples desenvolvido em HTML que serve como um pequeno guia turístic
 ## Páginas do Projeto
 
 O guia é composto por três páginas principais:
-- **Início (`1.html`):** Apresentação geral de Lisboa e factos rápidos.
+- **Início (`index.html`):** Apresentação geral de Lisboa e factos rápidos.
 - **Locais a Visitar (`locais.html`):** Monumentos e bairros históricos.
 - **Gastronomia (`gastronomia.html`):** Pratos e doces tradicionais portugueses.
 
@@ -17,9 +17,8 @@ O guia é composto por três páginas principais:
 
 Como o projeto é feito apenas com HTML básico, não precisas de instalar nada.
 1. Faz o download ou clona este repositório.
-2. Dá um duplo clique no ficheiro `1.html`.
+2. Dá um duplo clique no ficheiro `index.html`.
 3. O site vai abrir automaticamente no teu navegador de internet (Chrome, Edge, Opera, etc.).
 
 ## Tecnologias Utilizadas
 - HTML5
-- CSS3
