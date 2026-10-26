@@ -39,7 +39,7 @@ também uma tabela com sugestões por zona e um vídeo de uma receita.
 │   ├── style.css
 │   ├── locais.css
 │   └── gastronomia.css
-├── Pré-visualização Início.png
+├── Pré-visualização Inícial.png
 └── README.md
 ```
 
