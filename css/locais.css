@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
 
+/* Cores e tipos de letra da página de locais */
 :root {
   color-scheme: light;
   --ink: #252f35;
@@ -18,6 +19,7 @@
   box-sizing: border-box;
 }
 
+/* Estilos gerais da página */
 html {
   scroll-behavior: smooth;
 }
@@ -39,6 +41,7 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
+/* Cabeçalho, título principal e imagem de fundo */
 .site-header {
   color: #f8fffc;
   background: #173c3a;
@@ -90,6 +93,7 @@ a:focus-visible {
   animation: rise-in 700ms 120ms ease-out both;
 }
 
+/* Navegação principal */
 .site-nav {
   min-height: 72px;
   display: flex;
@@ -132,6 +136,7 @@ a:focus-visible {
   color: var(--accent-dark);
 }
 
+/* Largura do conteúdo e introdução da página */
 main {
   width: min(1120px, calc(100% - 48px));
   margin: 0 auto;
@@ -161,6 +166,7 @@ main {
   color: var(--muted);
 }
 
+/* Grelha e cartões dos locais */
 .places-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -191,6 +197,7 @@ main {
   box-shadow: var(--shadow);
 }
 
+/* Imagens dos locais e animação de zoom ao passar o rato */
 .place-image {
   position: relative;
   display: block;
@@ -225,6 +232,7 @@ main {
   font-size: 1.05rem;
 }
 
+/* Texto e ligações dentro dos cartões */
 .place-copy {
   padding: 24px 24px 28px;
 }
@@ -272,6 +280,7 @@ main {
   transform: translate(3px, -3px);
 }
 
+/* Nota de visita e rodapé */
 .visit-note {
   display: flex;
   align-items: center;
@@ -312,6 +321,7 @@ main {
   text-decoration: none;
 }
 
+/* Animação de entrada dos elementos */
 @keyframes rise-in {
   from {
     opacity: 0;
@@ -323,6 +333,7 @@ main {
   }
 }
 
+/* Ajustes para tablets e ecrãs médios */
 @media (max-width: 850px) {
   .places-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -333,6 +344,7 @@ main {
   }
 }
 
+/* Ajustes para telemóveis */
 @media (max-width: 600px) {
   .hero {
     min-height: 300px;
@@ -386,6 +398,7 @@ main {
   }
 }
 
+/* Ajustes para ecrãs muito estreitos */
 @media (max-width: 400px) {
   .site-nav {
     align-items: flex-start;
@@ -401,6 +414,7 @@ main {
   }
 }
 
+/* Reduz animações quando o utilizador assim o prefere */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

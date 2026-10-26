@@ -193,6 +193,12 @@ main {
   border-radius: 4px 48px 4px 4px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.feature-image img:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 24px 56px rgba(35, 50, 46, 0.18);
 }
 
 .feature-image figcaption {
