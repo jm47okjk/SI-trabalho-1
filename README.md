@@ -6,7 +6,7 @@ tradicionais, através de três páginas simples de navegar.
 
 ## Pré-visualização
 
-![Pré-visualização da página inicial do guia Lisboa de perto](./Pré-visualização%20Início.png)
+![Pré-visualização da página inicial do guia Lisboa de perto](./Pré-visualização%20Inícial.png)
 ## Conteúdos
 
 ### Início
