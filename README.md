@@ -6,8 +6,7 @@ tradicionais, através de três páginas simples de navegar.
 
 ## Pré-visualização
 
-![Pré-visualização da página inicial do guia Lisboa de perto](./Captura%20de%20ecr%C3%A3%202026-09-30%20143013.png)
-
+![Pré-visualização da página inicial do guia Lisboa de perto](./Pré-visualização%20Início.png)
 ## Conteúdos
 
 ### Início
@@ -40,7 +39,7 @@ também uma tabela com sugestões por zona e um vídeo de uma receita.
 │   ├── style.css
 │   ├── locais.css
 │   └── gastronomia.css
-├── Captura de ecrã 2026-09-30 143013.png
+├── Pré-visualização Início.png
 └── README.md
 ```
 
