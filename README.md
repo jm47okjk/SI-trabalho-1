@@ -4,9 +4,13 @@ Um guia turístico digital para descobrir Lisboa. O site apresenta a cidade,
 destaca alguns dos seus monumentos e bairros e dá a conhecer sabores
 tradicionais, através de três páginas simples de navegar.
 
-## Pré-visualização
+## Pré-visualização: <small>*O projeto encontra-se publicado e funcional na Vercel*</small>
+🔗 [Visitar Lisboa de Perto](https://lisboa-de-perto.vercel.app)
+
 
 ![Pré-visualização da página inicial do guia Lisboa de perto](./Pré-visualização%20Inícial.png)
+
+
 ## Conteúdos
 
 ### Início
