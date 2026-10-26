@@ -1,62 +1,114 @@
 <!doctype html>
-<html lang="p">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guia Turístico de Lisboa - Início</title>
+    <meta
+      name="description"
+      content="Um guia para descobrir Lisboa, os seus bairros, monumentos e sabores."
+    />
+    <title>Lisboa — Guia da cidade</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Cabeçalho Principal -->
-    <h1>Bem-vindo a Lisboa</h1>
-    <p>A Cidade das Sete Colinas, do Fado e da Luz Única.</p>
+    <header class="site-header">
+      <div class="hero">
+        <p class="eyebrow">Guia de viagem · Portugal</p>
+        <h1>Lisboa, feita de luz.</h1>
+        <p class="hero-intro">
+          Entre o Tejo e as colinas, há sempre uma rua nova para descobrir.
+        </p>
+      </div>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a class="brand" href="index.html" aria-label="Lisboa de perto — início">Lisboa de perto</a>
+        <div class="nav-links">
+          <a href="index.html" aria-current="page">Início</a>
+          <a href="locais.html">Locais a visitar</a>
+          <a href="gastronomia.html">Gastronomia</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-section" aria-labelledby="sobre-lisboa">
+        <div class="intro-copy">
+          <p class="eyebrow">A cidade das sete colinas</p>
+          <h2 id="sobre-lisboa">Uma cidade para sentir sem pressa</h2>
+          <p>
+            Capital de Portugal, Lisboa estende-se pela margem norte do Tejo.
+            Junta história e vida contemporânea em bairros cheios de carácter,
+            miradouros, elétricos e fachadas cobertas de azulejos.
+          </p>
+          <a
+            class="text-link"
+            href="https://pt.wikipedia.org/wiki/Lisboa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Conhecer mais sobre Lisboa <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <figure class="feature-image">
+          <img
+            src="https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=1200&q=85"
+            alt="Vista panorâmica dos telhados de Lisboa"
+          />
+          <figcaption>Uma vista sobre os telhados e as colinas da cidade</figcaption>
+        </figure>
+      </section>
+
+      <section class="facts-section" aria-labelledby="factos">
+        <div class="section-heading">
+          <p class="eyebrow">Em poucas palavras</p>
+          <h2 id="factos">Lisboa em números</h2>
+        </div>
+        <div class="facts-grid">
+          <article class="fact-card">
+            <span class="fact-number">01</span>
+            <h3>População</h3>
+            <p>Cerca de 545 mil habitantes na cidade.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">02</span>
+            <h3>Língua</h3>
+            <p>Português, com muitas vozes e sotaques pelo caminho.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">03</span>
+            <h3>Moeda</h3>
+            <p>Euro (€), como no resto de Portugal.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">04</span>
+            <h3>Clima</h3>
+            <p>Ameno e soalheiro, com mais de 2.900 horas de sol por ano.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="explore-section" aria-labelledby="explorar">
+        <div>
+          <p class="eyebrow">O próximo passo</p>
+          <h2 id="explorar">Começa a tua descoberta</h2>
+          <p>Escolhe um caminho e deixa Lisboa surpreender-te.</p>
+        </div>
+        <div class="explore-links">
+          <a class="explore-card" href="locais.html">
+            <span>01 / Lugares</span>
+            <strong>Monumentos, bairros e miradouros</strong>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="explore-card" href="gastronomia.html">
+            <span>02 / Sabores</span>
+            <strong>Receitas e tradições à mesa</strong>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Lisboa, Portugal <span aria-hidden="true">·</span> Um guia para passear.</p>
+    </footer>
   </body>
-  <hr />
-  <!-- Menu de Navegação -->
-  <nav>
-    <p>
-      <strong>Navegação:</strong> | <b>Início</b> |
-      <a href="locais.html">Locais a Visitar</a> |
-      <a href="gastronomia.html">Gastronomia Típica</a> |
-    </p>
-  </nav>
-  <hr />
-  <!-- Apresentação Geral -->
-  <h2>Sobre a Cidade</h2>
-  <p>
-    Lisboa é a capital e a maior cidade de Portugal. Localizada na foz do Rio
-    Tejo, combina uma história secular com modernidade e uma vida cultural
-    vibrante.
-  </p>
-  <a href="https://pt.wikipedia.org/wiki/Lisboa" target="_blank">
-    <img
-      src="https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=600"
-      alt="Vista
-Panorâmica de Lisboa"
-      width="500"
-    />
-  </a>
-  <p>
-    <small>(Clica na fotografia para ler o artigo completo na Wikipédia)</small>
-  </p>
-  <h3>Factos Rápidos</h3>
-  <ul>
-    <li><strong>População:</strong> Cerca de 545.000 habitantes na cidade.</li>
-    <li><strong>Língua Oficial:</strong> Português.</li>
-    <li><strong>Moeda:</strong> Euro (€).</li>
-    <li>
-      <strong>Clima:</strong> Mediterrânico, com mais de 2.900 horas de sol por
-      ano.
-    </li>
-  </ul>
-  <p>"Lisboa tem um encanto especial que nos faz querer voltar sempre."</p>
-  <hr />
-  <p>Explora as nossas secções para planeares a tua visita:</p>
-  <ul>
-    <li>
-      <a href="locais.html">Conhece os melhores monumentos e bairros →</a>
-    </li>
-    <li>
-      <a href="gastronomia.html">Descobre os pratos e doces tradicionais →</a>
-    </li>
-  </ul>
 </html>

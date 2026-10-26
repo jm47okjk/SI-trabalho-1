@@ -1,24 +1,85 @@
-# Guia Turístico de Lisboa
+# Lisboa de perto
 
-Um projeto simples desenvolvido em HTML que serve como um pequeno guia turístico para a cidade de Lisboa, apresentando informações gerais, locais a visitar e gastronomia típica.
+Um guia turístico digital para descobrir Lisboa. O site apresenta a cidade,
+destaca alguns dos seus monumentos e bairros e dá a conhecer sabores
+tradicionais, através de três páginas simples de navegar.
 
 ## Pré-visualização
 
-![Captura de ecrã do site](https://github.com/jm47okjk/SI-trabalho-1/blob/main/Captura%20de%20ecr%C3%A3%202026-09-30%20143013.png?raw=true)
+![Pré-visualização da página inicial do guia Lisboa de perto](./Captura%20de%20ecr%C3%A3%202026-09-30%20143013.png)
 
-## Páginas do Projeto
+## Conteúdos
 
-O guia é composto por três páginas principais:
-- **Início (`index.html`):** Apresentação geral de Lisboa e factos rápidos.
-- **Locais a Visitar (`locais.html`):** Monumentos e bairros históricos.
-- **Gastronomia (`gastronomia.html`):** Pratos e doces tradicionais portugueses.
+### Início
 
-## Como abrir o projeto
+Em [`index.html`](./index.html), encontra-se uma introdução a Lisboa, alguns
+factos sobre a cidade e atalhos para as restantes secções do guia.
 
-Como o projeto é feito apenas com HTML básico, não precisas de instalar nada.
-1. Faz o download ou clona este repositório.
-2. Dá um duplo clique no ficheiro `index.html`.
-3. O site vai abrir automaticamente no teu navegador de internet (Chrome, Edge, Opera, etc.).
+### Locais a visitar
 
-## Tecnologias Utilizadas
+Em [`locais.html`](./locais.html), são apresentados três lugares emblemáticos:
+
+- **Torre de Belém** — monumento manuelino junto ao Tejo;
+- **Castelo de São Jorge** — castelo histórico com vista sobre a cidade;
+- **Alfama** — bairro antigo conhecido pelas ruas estreitas e pelo Fado.
+
+### Gastronomia
+
+Em [`gastronomia.html`](./gastronomia.html), o visitante encontra informações
+sobre pastel de nata, bacalhau à Brás e sardinhas assadas. A página inclui
+também uma tabela com sugestões por zona e um vídeo de uma receita.
+
+## Organização do projeto
+
+```text
+.
+├── index.html
+├── locais.html
+├── gastronomia.html
+├── css/
+│   ├── style.css
+│   ├── locais.css
+│   └── gastronomia.css
+├── Captura de ecrã 2026-09-30 143013.png
+└── README.md
+```
+
+Cada página HTML carrega a sua própria folha de estilos dentro da pasta
+[`css/`](./css/). Assim, cada secção pode ter uma identidade visual distinta,
+mantendo elementos comuns como a navegação, a tipografia e o comportamento em
+ecrãs pequenos.
+
+## Design e funcionalidades
+
+- Layout adaptável a computadores, tablets e telemóveis.
+- Navegação entre as três páginas do guia.
+- Cartões, imagens, ligações informativas e conteúdos próprios de cada secção.
+- Animações suaves e efeitos ao passar o rato sobre elementos interativos.
+- Respeito pela preferência do dispositivo por movimento reduzido.
+- Descrição alternativa nas imagens para facilitar a sua compreensão por
+  tecnologias de apoio.
+- Apresentação em tema claro.
+
+## Como executar
+
+O projeto é estático: não necessita de instalação, dependências ou servidor.
+
+1. Descarrega o projeto ou clona este repositório.
+2. Abre a pasta do projeto.
+3. Abre `index.html` no navegador.
+4. Usa a navegação no topo para visitar as páginas de locais e gastronomia.
+
+Também é possível abrir a pasta no Visual Studio Code e iniciar um servidor
+local, por exemplo com a extensão Live Server.
+
+## Recursos externos
+
+As fotografias, os tipos de letra e o vídeo são carregados de serviços externos.
+É necessária uma ligação à Internet para os visualizar. Se o vídeo incorporado
+não funcionar, a página de gastronomia disponibiliza uma ligação para o abrir
+diretamente no YouTube.
+
+## Tecnologias
+
 - HTML5
+- CSS3
